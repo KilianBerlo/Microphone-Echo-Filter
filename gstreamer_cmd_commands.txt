@@ -1,0 +1,12 @@
+# Command WITHOUT echo filter:
+gst-launch-1.0 alsasrc device=hw:0 buffer-time=35000 ! alsasink
+
+# Command WITH echo filter:
+gst-launch-1.0 alsasrc device=hw:0 buffer-time=35000 ! webrtcdsp ! webrtcechoprobe ! alsasink
+
+
+# Arguments
+device=hw:0 is used to select the input microphone, so using hw:0, hw:1, etc.
+
+# Note: 
+Alsasink sinks the audio to the default output (so the one you control with alsamixer).
