@@ -21,7 +21,10 @@ Languages, libraries and versions used in the project:
 - GStreamer App 1.0
 
 ## Launch
-Build the project using CMake and then run ./Microphone-echo-filter.
+Build the project using CMake, then run
+```
+$ ./Microphone_Echo_Filter
+```
 
 ## Contact
 Kilian van Berlo - S2613352 - k.vanberlo@student.utwente.nl
