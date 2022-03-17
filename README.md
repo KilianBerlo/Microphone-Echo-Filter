@@ -1,9 +1,5 @@
 # Microphone Echo Cancellation
-In this project an echo cancellation application is designed and implemented on a Raspberry Pi.
-First a sequential application is created after which the program is partitioned in parts in order to
-enable the program to execute tasks on different processes at the same time. With the switch from
-sequential to parallel, it is possible to apply echo cancellation in real time while maintaining the
-functional behaviour, just as is the case in real-life situations.
+In this project an echo cancellation application is designed and implemented on a Raspberry Pi. First a sequential application is created after which the program is partitioned in parts in order to enable the program to execute tasks on different processes at the same time. With the switch from sequential to parallel, it is possible to apply echo cancellation in real time while maintaining the functional behaviour, just as is the case in real-life situations. A demonstration video of the system can be seen [here](https://raw.githubusercontent.com/KilianBerlo/Microphone-Echo-Filter/main/RTS2%20Echo%20cancellation%20demo.mp4)
 
 ## Hardware
 Hardware used in the project:
