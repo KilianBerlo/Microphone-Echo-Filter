@@ -23,8 +23,7 @@ $ ./Microphone_Echo_Filter
 ```
 
 ## Contact
-Kilian van Berlo - S2613352 - k.vanberlo@student.utwente.nl
-
-Glen te Hofsté
+- Kilian van Berlo - S2613352 - k.vanberlo@student.utwente.nl
+- Glen te Hofsté
 
 Project Link: https://github.com/KilianBerlo/Microphone-Echo-Filter
